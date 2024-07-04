@@ -1,0 +1,113 @@
+V.SHYAM
+
+ 1. Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of the rectangle.
+
+package Shyam;
+
+public class Rectangle {
+
+	public static void main(String[] args) {
+		int length =5;
+		int breadth =7;
+		int area = length*breadth;
+		int perimeter =2*(length+breadth);
+		System.out.println("Area of the rectangle:"+area);
+		System.out.println("Perimeter of the rectangle:"+perimeter);
+	}
+
+}
+
+
+output:
+
+Area of the rectangle:35
+Perimeter of the rectangle:24
+
+
+2. Write a program to add 8 to the number 2345 and then divide it by 3. Now, the modulus of the quotient is taken with 5 and then multiply the resultant value by 5. Display the final result.
+
+package Shyam;
+
+public class Finalresult {
+
+	public static void main(String[] args) {
+		    int number = 2345;
+	        int result = number+8;
+	        result = result/3;
+	        result = result%5;
+	        result = result*5;
+	        System.out.println("Final result is: " + result);
+	    }
+
+	}
+
+output:
+Final result is: 20
+
+3. Write a program to check if the two numbers 23 and 45 are equal.
+
+package Shyam;
+
+public class Numbersarenotequal {
+
+	public static void main(String[] args) {
+		int number1 =23;
+		int number2 =45;
+		if(number1==number2) {
+		System.out.println("Numbers are equal");
+		}else {
+		System.out.println("Numbers are not equal");	
+			
+		}
+
+	}
+
+}
+
+
+output:
+Numbers are not equal
+
+4. Write a program to calculate the perimeter of a triangle having sides of length 2,3 and 5 units.
+package Shyam;
+
+public class Perimeter {
+
+	public static void main(String[] args) {
+		int Side1 =2;
+		int Side2 =3;
+		int Side3 =5;
+		int parameter=Side1+Side2+Side3;
+		System.out.println("parameter of a triangle:"+parameter);
+
+	}
+
+}
+
+
+output:
+parameter of a triangle:10
+
+
+
+5. If the marks of Robert in three subjects are 78,45 and 62 respectively (each out of 100 ), write a program to calculate his total marks and percentage marks.
+
+package Shyam;
+
+public class Percentage {
+
+	public static void main(String[] args) {
+		int Subject1 =78;
+		int Subject2 =45;
+		int Subject3 =62;
+		int Calculate =Subject1+Subject2+Subject3;
+		System.out.println("Robert percentage:"+Calculate);
+
+	}
+
+}
+
+output:
+Robert percentage:185
+
+
